@@ -28,8 +28,8 @@ def add_bg_from_local(image_file):
     )
 add_bg_from_local('backgroundj2.jpg')
 
-weight_average = load(open('C:\\Users\\komal\\Downloads\\MRS1\\weight_average.pkl','rb'))
-movies_popularity = load(open('C:\\Users\\komal\\Downloads\\MRS1\\movies_popularity.pkl','rb'))
+weight_average = load(open('weight_average.pkl','rb'))
+movies_popularity = load(open('movies_popularity.pkl','rb'))
 
 weight_average = weight_average[['title']]
 movies_popularity = movies_popularity[['title']]
