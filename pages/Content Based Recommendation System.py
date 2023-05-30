@@ -32,7 +32,9 @@ add_bg_from_local('backgroundj3.jpg')
 
 
 sig = load(open('sig.pkl','rb'))
-df_act = load(open('MRS1/df.pkl','rb'))
+#df_act = load(open('MRS1/df.pkl','rb'))
+#pd.read_pickle(open('test_report.pickle', 'rb'))
+df_act = pd.read_pickle(open('MRS1/df.pkl','rb'))
 
     # Reverse mapping of indices and movie titles
 indices = pd.Series(df_act.index, index = df_act['title']).drop_duplicates()
