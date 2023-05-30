@@ -8,7 +8,7 @@ from PIL import Image
 st.set_page_config(page_title="Content Based Recommendation", page_icon="🎥",layout="wide")
 #st.title("Movie Recommendation System- Content Based")
 st.markdown(f'<h1 style="color:#ffffff;font-size:39px;background-color:#000000">{"Movie Recommendation System- Content Based"}</h1>', unsafe_allow_html=True)
-#image = Image.open('C:\\Users\\komal\\Downloads\\MRS1\\backgroundj3.jpg')
+#image = Image.open('backgroundj3.jpg')
 #st.image(image)
 import base64
 def add_bg_from_local(image_file):
@@ -31,8 +31,8 @@ def add_bg_from_local(image_file):
 add_bg_from_local('backgroundj3.jpg')
 
 
-sig = load(open('C:\\Users\\komal\\Downloads\\MRS1\\sig.pkl','rb'))
-df_act = load(open('C:\\Users\\komal\\Downloads\\MRS1\\df.pkl','rb'))
+sig = load(open('sig.pkl','rb'))
+df_act = load(open('df.pkl','rb'))
 
     # Reverse mapping of indices and movie titles
 indices = pd.Series(df_act.index, index = df_act['title']).drop_duplicates()
