@@ -1,5 +1,5 @@
 # Movie Recommendation System
-## Movie Recommendation System using Collaborative Method (User - User similarity , Item-Item similarity)
+## Movie Recommendation System using Popularity Based Recommendation, Content Based Recommendation, Collaborative Based Recommendation
 
 ```diff
 @@ Technologies - ML, NLP, Matrix Factorization @@
