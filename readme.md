@@ -1,0 +1,69 @@
+# Movie Recommendation System
+## Movie Recommendation System using Collaborative Method (User - User similarity , Item-Item similarity)
+
+```diff
+@@ Technologies - ML, NLP, Matrix Factorization @@
+@@ Prerequisites - Python, ML, NLP, Linear Algebra @@
+@@ Domain - Entertainment @@
+
+```
+
+### About the Dataset
+https://www.kaggle.com/rounakbanik/movie-recommender-systems/data
+
+The dataset consists of  metadata for all 45,000 movies listed in the Full MovieLens Dataset. The dataset consists of movies released on or before July 2017. Data points include cast, crew, plot keywords, budget, revenue, posters, release dates, languages, production companies, countries, TMDB vote counts and vote averages.
+
+This dataset consists of the following files:
+
+**movies_metadata.csv:** The main Movies Metadata file. Contains information on 45,000 movies featured in the Full MovieLens dataset. Features include posters, backdrops, budget, revenue, release dates, languages, production countries and companies.
+
+**keywords.csv:** Contains the movie plot keywords for our MovieLens movies. Available in the form of a stringified JSON Object.
+
+**credits.csv:** Consists of Cast and Crew Information for all our movies. Available in the form of a stringified JSON Object.
+
+**links.csv:** The file that contains the TMDB and IMDB IDs of all the movies featured in the Full MovieLens dataset.
+
+**links_small.csv:** Contains the TMDB and IMDB IDs of a small subset of 9,000 movies of the Full Dataset.
+
+**ratings_small.csv:** The subset of 100,000 ratings from 700 users on 9,000 movies.
+
+### Project Plan
+
+1. Merging all the given datasets ( credits.csv, keywords.csv, links.csv,links_small.csv,movies_metadata.csv,ratings_small.csv)
+
+     ○ credits and keywords, credits and movies_metadata on id
+     
+     ○ ratings_small and links on movieId
+     
+     ○ links and credits on tmdbId
+    
+2. Data cleaning
+
+   ● Exploratory Data Analysis (Data Visualisations)
+   
+   ● Data Preprocessing
+   
+3. Save the Dataframe as csv file which will be used in Popularity, Content, Collaborative Based Recommendation systems
+
+4. Model Building
+
+   ○ Weighted Rating for Popularity based Recommendation systems
+   
+   ○ TF-IDF (term frequency - inverse document frequency) for Content Based Recommendation system
+   
+   ○ KNN (K Nearest Neighbors) for Collaborative Based Recommendation system
+   
+   ## Three Models deployed in single app !!! Can be seem through Nav Bar
+   
+5. Model Serialisation and DeSerialisation
+
+6.  Deployment using Streamlit where we have to select or type the movie accordingly to render output on screen
+
+# To see the interface of the app 
+
+#### Like how it looked like in laptop and mobile resolutions
+
+```diff
++ Go to Deployment video file
+ ```
+[ Click On this to the see interface of the app recorded in mp4 files ](https://github.com/komalreddy3/MovieRecommendationSystem/tree/28c752a797dd0fd13fdff0e8c63e05a9b1e076b4/Collaborative%20based%20Recommendation%20Deployment%20Video)
