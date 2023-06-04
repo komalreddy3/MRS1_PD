@@ -66,4 +66,4 @@ This dataset consists of the following files:
 ```diff
 + Go to Deployment video file
  ```
-[ Click On this to the see interface of the app recorded in mp4 files ](https://github.com/komalreddy3/MovieRecommendationSystem/tree/28c752a797dd0fd13fdff0e8c63e05a9b1e076b4/Collaborative%20based%20Recommendation%20Deployment%20Video)
+[ Click On this to the see interface of the app recorded in mp4 files ](https://github.com/komalreddy3/MRS1_PD/tree/850c25d6ce1035e722ba76e5f5afe464cf538182/Deployed%20app%20video)
