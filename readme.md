@@ -61,7 +61,7 @@ This dataset consists of the following files:
 
 # To see the interface of the app 
 
-#### Like how it looked like in laptop and mobile resolutions
+#### Like how it looked like on laptop and mobile resolutions
 
 ```diff
 + Go to Deployment video file
